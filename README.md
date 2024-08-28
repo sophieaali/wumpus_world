@@ -1,7 +1,7 @@
 # wumpus_world
 Wumpus world environment simulator. Completed as part of the Intelligent Agents Course at UofT
 
-There are 3 different agents. 
+The point of WumpusWorld is to build an environment that an agent must navigate, avoiding pits and the Wumpus in order to successfully retreive the gold and get back to cell (1,1) to climb out of WumpusWorld. If an agent goes into a cell with a pit or wumpus, the agent dies. I have built 3 different agents, as described below: 
 
 The Naive agent (Assignment 1) chooses randomly between 6 different actions: Forward, TurnLeft, TurnRight, Shoot, Grab and Climb with uniform probability. The agent acts randomly until it dies or until it finds the gold and climbs out of Wumpus World.
 
